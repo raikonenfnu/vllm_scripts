@@ -1,0 +1,1 @@
+vllm serve amd/gpt-oss120b-w-mxfp4-a-fp8 --port 8000 --tensor-parallel-size=8 --gpu-memory-utilization 0.95 --max-model-len 16385 --compilation-config '{"cudagraph_mode":"FULL_AND_PIECEWISE", "custom_ops": ["+rms_norm"]}' --block-size=64 --no-enable-prefix-caching --disable-log-requests --async-scheduling
