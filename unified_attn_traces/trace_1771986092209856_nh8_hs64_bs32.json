@@ -1,0 +1,57 @@
+{
+  "seq_lens": [
+    [
+      8192,
+      13472
+    ]
+  ],
+  "num_heads": [
+    8,
+    1
+  ],
+  "head_size": 64,
+  "sliding_window": 128,
+  "dtype": "bfloat16",
+  "block_size": 32,
+  "soft_cap": null,
+  "num_blocks": 1826472,
+  "q_dtype": null,
+  "k_dtype": "torch.bfloat16",
+  "v_dtype": "torch.bfloat16",
+  "q_descale_dtype": null,
+  "k_descale_dtype": "torch.float32",
+  "v_descale_dtype": "torch.float32",
+  "q_descale_shape": null,
+  "k_descale_shape": [
+    1,
+    1
+  ],
+  "v_descale_shape": [
+    1,
+    1
+  ],
+  "key_cache_shape": [
+    1826472,
+    32,
+    1,
+    64
+  ],
+  "value_cache_shape": [
+    1826472,
+    32,
+    1,
+    64
+  ],
+  "key_cache_strides": [
+    2048,
+    64,
+    64,
+    1
+  ],
+  "value_cache_strides": [
+    2048,
+    64,
+    64,
+    1
+  ]
+}
